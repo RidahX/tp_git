@@ -20,7 +20,7 @@ jobs:
         pip install pytest pylint
     - name: Execute unit tests
       run: |
-      pytest
+        pytest
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py')
