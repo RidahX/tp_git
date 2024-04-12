@@ -7,7 +7,11 @@ def test_addition():
 
 def test_soustraction():
     assert soustraction(4, 2) == 2
+    
+def test_soustraction():
+    assert soustraction(6, 2) == 4
 
 def test_division():
     assert division(10, 2) == 5
     assert division(10, 0) == "Cannot divide by zero"
+    
