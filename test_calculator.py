@@ -8,7 +8,8 @@ def test_addition():
 def test_soustraction():
     assert soustraction(4, 2) == 2
     
-def test_soustraction():
+def test_soustraction_variant():
+    """Test another case for the soustraction function."""
     assert soustraction(6, 2) == 4
 
 def test_division():
